@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#153677,#4e085f);
+}
+#todolist-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:center;
+    align-items: center;
+    width:30% ;
+    padding:20px;
+    height: 50%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 20% auto;
+}
+#type-container{
+    display: flex;
+    gap: 2px;
+}
