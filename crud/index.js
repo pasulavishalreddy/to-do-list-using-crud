@@ -39,7 +39,6 @@ function deleteTask(listItem){
     let confirmDelete = confirm("Are You Sure?");
     if(confirmDelete){
         listItem.remove();
-        saveData()
     }
 }
 
